@@ -22,12 +22,17 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
-h1, h2, h3 {
+h1, h2, h3, h4, p {
   font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 .home-callout {
-  color: white;
   padding-top: 50px;
 }
 
